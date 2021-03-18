@@ -46,11 +46,7 @@ Use the copy function below to do the following:
 */
 const flavors=[...originalFlavors];
 
-console.log(flavors);
-
-function copy(/*your code here*/){
-    /*your code here*/
-}    
+console.log(flavors);   
 
 
 
@@ -67,16 +63,20 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-   /*your code here*/
+function is31Flavors(flavors) {
+    if (array.length === 31) {
+        return true;
+   }
+   else return false;
 }
+console.log(is31Flavors(originalFlavors));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
 
 Use the addFlavor function below to do the following:
     1. Receive an array
-    2. Receive a new flavor as a string
+    2. Receive a new flavor as a string //.push
     3. The function adds the passed flavor to the front of the passed array
     4. The function should return the resulting array
 
@@ -84,9 +84,11 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-   /*your code here*/
+function addFlavor(originalFlavors, "Rainbow Sherbet"){
+   addFlavor.push("Rainbow Sherbet");
 }
+
+console.log(addFlavor);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
